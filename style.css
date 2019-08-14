@@ -1,0 +1,208 @@
+/* HEADER*/
+header {
+	width: 100%;
+	height: 200px;
+	background-image: url(./images/header.png);
+	background-color: #0F0;
+}
+
+/* DropDown Navigation */
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+nav ul, nav ul li {
+	background-color: #FAFAFA;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	border-right: 1px solid #dfdfdf;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	color: #333;
+	padding: 14px 34px 14px 34px;
+	-webkit-transition: background 0.3s ease-out 0s;
+	-moz-transition: background 0.3s ease-out 0s;
+	-o-transition: background 0.3s ease-out 0s;
+	transition: background 0.3s ease-out 0s;
+}
+
+nav ul li.cat1:hover a, nav ul li.cat1:hover > ul li a {
+	background-color: #E6DD00;
+}
+
+nav ul li.cat2:hover a, nav ul li.cat2:hover > ul li a {
+	background-color: #8CB302;
+}
+nav ul li.cat3:hover a, nav ul li.cat3:hover > ul li a {
+	background-color: #008C74;
+}
+nav ul li.cat4:hover a, nav ul li.cat4:hover > ul li a {
+	background-color: #004C66;
+}
+
+nav ul li.cat5:hover a, nav ul li.cat5:hover > ul li a {
+	background-color: #332B40;
+}
+
+nav ul li.cat6:hover a, nav ul li.cat6:hover > ul li a {
+	background-color: #190707;
+}
+
+nav ul li.cat7:hover a, nav ul li.cat7:hover > ul li a {
+	background-color: #190707;
+}
+
+nav ul li:hover > a {
+	color: #FAFAFA;
+}
+
+nav ul li ul li a {
+	color: #FAFAFA;
+}
+
+nav ul li:hover > ul {
+	visibility: visible;
+}
+nav ul li ul {
+	display: inline;
+	visibility: hidden;
+	position: absolute;
+	padding: 0px;
+}
+nav ul li ul li {
+	float: none;
+}
+nav ul li ul li a:hover {
+	color: #333;
+	background-color: #FAFAFA !important;
+}
+
+/* MAIN */
+main {
+	width: 1004px;
+	height: 500px;
+	background-color: #E9E9E9;
+	margin-bottom: 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+main  h1 {
+	color: #3A01DF;
+}
+
+main a {
+	color: #B45F04;
+}
+
+/* WRAPPER */
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #999;
+	width: 1024px;
+	height: 768px;
+}
+
+/* BODY */
+body {
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgb(149,149,149); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOTU5NTk1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDYlIiBzdG9wLWNvbG9yPSIjMGQwZDBkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDEwMTAxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTMlIiBzdG9wLWNvbG9yPSIjMGEwYTBhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzYlIiBzdG9wLWNvbG9yPSIjNGU0ZTRlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iODclIiBzdG9wLWNvbG9yPSIjMzgzODM4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFiMWIxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(45deg,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(149,149,149,1)), color-stop(46%,rgba(13,13,13,1)), color-stop(50%,rgba(1,1,1,1)), color-stop(53%,rgba(10,10,10,1)), color-stop(76%,rgba(78,78,78,1)), color-stop(87%,rgba(56,56,56,1)), color-stop(100%,rgba(27,27,27,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* IE10+ */
+	background: linear-gradient(45deg,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+body > footer {
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+}
+
+.shadow-menu {
+	-webkit-box-shadow: 0px 0px 5px #000;
+	-moz-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+}
+
+article footer {
+	font-size: 12px;
+	font-family: Calibri, Rotis Sans Serif, sans-serif;
+	color: black;
+	background-color: #FBF2EF;
+	border: 1px solid #F7BE81;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+
+footer ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+footer ul li {
+	list-style-type: none;
+	float: left;
+	clear: both;
+}
+
+
+/* Einzelnen Klassen */
+
+/* Squads */
+h1.squads {
+	font-family: Calibri, Rotis Sans Serif, sans-serif;
+	size: 16px;
+	color: black;
+	text-align: center;
+}
+
+h2.squads {
+	font-family: Calibri, Rotis Sans Serif, sans-serif;
+	size: 14px;
+	text-align: center;
+}
+
+p.squads {
+	font-family: Calibri, Rotis Sans Serif, sans-serif;
+	size: 12px;text-align="justify";
+}
+
